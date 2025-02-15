@@ -23,9 +23,9 @@ python mfstool.py <image> <command> [arguments...]
 
 **Examples:**
 
-python mfstool.py minix.img ls 
-\npython mfstool.py minix.img cat dir/file 
-\npython mfstool.py minix.img touch filename
+- python mfstool.py minix.img ls 
+- python mfstool.py minix.img cat dir/file 
+- python mfstool.py minix.img touch filename
 
 
 ---
