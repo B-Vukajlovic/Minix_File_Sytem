@@ -23,7 +23,7 @@ python mfstool.py <image> <command> [arguments...]
 
 **Examples:**
 
-python mfstool.py minix.img ls python mfstool.py minix.img cat dir/file python mfstool.py minix.img touch filename python mfstool.py minix.img mkdir newdir python mfstool.py minix.img append dir/file "Some extra data"
+python mfstool.py minix.img ls python mfstool.py minix.img cat dir/file python mfstool.py minix.img touch filename
 
 
 ---
@@ -31,4 +31,4 @@ python mfstool.py minix.img ls python mfstool.py minix.img cat dir/file python m
 ## Notes
 1. **Filename Lengths**: The script automatically detects whether the Minix image uses short (14‐byte) or long (30‐byte) filenames (based on the filesystem `magic` number).  
 2. **Paths**: Currently supports a simplified path format like `directory/filename`.  
-3. **Inodes & Data Blocks**: Reads/manipulates inode tables and data block addresses in a low-level manner, which shows fundamental filesystem concepts like block allocation, indirect zones, and double indirect zones.  
+3. **Inodes & Data Blocks**: Reads/manipulates inode tables and data block addresses in a low-level manner, which shows important filesystem concepts like block allocation, indirect zones, and double indirect zones.  
